@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #97996a;
+    --secondary-color: #bbbf6b;
+    --tertiary-color: #f7e1b7;
+    --accent-color: #bb7953;
+    --dark-color: #5a3926;
+    --light-color: #fffaf2;
+    --button-color: #ffd9dd;
+    --button-hover: #ffc0c7;
+}
+
+body {
+    font-family: 'Parkinsans', sans-serif;
+    background-color: var(--tertiary-color);
+    color: var(--dark-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    text-align: center;
+}
+
+.banner {
+    height: 400px;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(129, 50, 1, 0.271);
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+legend {
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    font-family: inherit;
+    width: calc(100% - 2rem);
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+}
+
+button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: medium;
+    background-color: var(--button-color);
+    color: var(--accent-color);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+    color: var(--dark-color);
+}
+
+h3 {
+    color: var(--primary-color);
+}
+
+.meal-plan {
+    background-color: var(--accent-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(65, 1, 129, 0.271);
+    margin-bottom: 20px;
+}
